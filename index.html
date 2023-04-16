@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <script src="https://kit.fontawesome.com/235afb1029.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main class="main">
+    <h1>Rock Paper Scissors</h1>
+    <p class="sub-heading">First to five wins</p>
+
+    <!-- SCOREBOARD -->
+    <div class="scoreboard">
+      <div class="player-score">
+        <p>Player: 1</p>
+      </div>
+      <div class="vs">
+        <p>vs</p>
+      </div>
+      <div class="comp-score">
+        <p>Computer: 0</p>
+      </div>
+    </div>
+
+    <!-- SELECTIONS -->
+    <div class="selections">
+      <div class="player-selection">
+        <i class="selection-icon far fa-light fa-hand-back-fist"></i>
+      </div>
+      <div class="round-details">
+        <div id="result" class="round-details-content">
+          <h2>You Win</h2>
+          <p>Computer chose Scissors</p>
+        </div>
+      </div>
+      <div class="comp-selection">
+        <i class="selection-icon far fa-light fa-hand-scissors"></i>
+      </div>
+    </div>
+
+    <!-- PLAYER CHOICE -->
+    <div class="player-choice">
+      <button class="restart-btn" tabindex="1         ">Restart Game</button>
+      <h2>Make Your Selection</h2>
+      <div class="choices-container">
+        <i id="rock" class="choice-icon far fa-light fa-hand-back-fist fa-6x" aria-label="Rock" role="button"
+          tabindex="0"></i>
+        <i id="paper" class="choice-icon far fa-light fa-hand fa-6x" aria-label="Paper" role="button" tabindex="0"></i>
+        <i id="scissors" class="choice-icon far fa-light fa-hand-scissors fa-6x" aria-label="Scissors" role="button"
+          tabindex="0"></i>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy <span class="year">2023</span> <a href="https://github.com/mcgill2023/rock-paper-scissors-ui"
+        class="github">Andrew Lee McGill</a></p>
+  </footer>
+
+</body>
+
+</html>
