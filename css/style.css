@@ -131,6 +131,15 @@ h1 {
   font-weight: 700;
 }
 
+h2.win {
+  color: var(--win-color);
+}
+
+h2.lose {
+  color: var(--lose-color);
+}
+
+
 .selection-icon {
   font-size: 200px;
 }
@@ -208,12 +217,9 @@ i {
   color: var(--off-white-color);
 }
 
-h2.win {
-  color: var(--win-color);
-}
-
-h2.lose {
-  color: var(--lose-color);
+.footer a {
+  text-decoration: none;
+  color: var(--off-white-color);
 }
 
 @keyframes detailsReveal {
@@ -398,6 +404,7 @@ h2.lose {
   .round-details {
     padding: 12px;
     font-size: 0.75rem;
+    font-weight: 500;
   }
 
   .round-details h2 {
@@ -424,5 +431,10 @@ h2.lose {
 
   .choice-icon {
     font-size: 40px;
+  }
+
+  .footer {
+    font-size: 0.75rem;
+    font-weight: 600;
   }
 }
