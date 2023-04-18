@@ -205,7 +205,7 @@ i {
   background: var(--primary-color);
   justify-content: center;
   align-items: center;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: var(--off-white-color);
 }
 
@@ -374,13 +374,38 @@ h2.lose {
   }
 }
 
-@media screen and (max-width: 320px) {
-  h1 {
+@media screen and (max-width: 600px) {
+  .sub-heading {
+    display: none;
+  }
+
+  .h1 {
     font-size: 1.25rem;
   }
 
+  .selection-icon {
+    font-size: 60px;
+  }
+
+  .round-details {
+    font-size: 0.75rem;
+  }
+
+  .round-details h2 {
+    font-size: 1rem;
+  }
+
+  .restart-btn {
+    padding: 8px 16px;
+    font-size: 0.75rem;
+  }
+
+  .player-choice h2 {
+    font-size: 1rem;
+  }
+
   .choices-container {
-    gap: 20px;
+    gap: 16px;
   }
 
   .choice-icon {
